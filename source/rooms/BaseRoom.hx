@@ -1,5 +1,7 @@
 package rooms;
 
+import flixel.FlxSprite;
+
 import peeps.BasePeep;
 import tower.Block;
 
@@ -23,6 +25,9 @@ class BaseRoom
 	public var visitors:Array<BasePeep>;
 	//the peeps currently working in this room
 	public var workers:Array<BasePeep>;
+	
+	//the sprite object connected to this room
+	public var sprite:FlxSprite;
 
 	public function new() 
 	{

@@ -2,6 +2,8 @@ package transit;
 
 import tower.Block;
 
+import flixel.FlxSprite;
+
 /**
  * ...
  * @author Chris Luffingham
@@ -15,6 +17,8 @@ class BaseTransit
 	//the transit's origin (bottom left) position as a block
 	public var origin:Block;
 	
+	//the sprite object connected to this transit object
+	public var sprite:FlxSprite;
 
 	public function new() 
 	{

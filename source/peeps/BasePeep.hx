@@ -1,5 +1,6 @@
 package peeps;
 
+import flixel.FlxSprite;
 import rooms.BaseRoom;
 import tower.Block;
 
@@ -16,7 +17,9 @@ class BasePeep
 	//the room the peep currently occupies (only needed while actually in a room)
 	public var room:BaseRoom;
 	
-
+	//the sprite object connected to this peep
+	public var sprite:FlxSprite;
+	
 	public function new() 
 	{
 		
