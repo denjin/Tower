@@ -7,8 +7,15 @@ import flixel.text.FlxText;
 import flixel.ui.FlxButton;
 import flixel.math.FlxMath;
 
+import tower.Tower;
+
 class PlayState extends FlxState
 {
+	
+	public var tower:Tower = new Tower();
+	
+	
+	
 	override public function create():Void
 	{
 		super.create();
