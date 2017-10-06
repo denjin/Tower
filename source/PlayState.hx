@@ -15,10 +15,10 @@ class PlayState extends FlxState
 	public var tower:Tower = new Tower();
 	
 	
-	
 	override public function create():Void
 	{
 		super.create();
+		trace(tower);
 	}
 
 	override public function update(elapsed:Float):Void

@@ -1,7 +1,7 @@
 package peeps;
 
 import flixel.FlxSprite;
-import rooms.BaseRoom;
+import tower.rooms.BaseRoom;
 import tower.Block;
 
 /**
